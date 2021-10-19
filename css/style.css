@@ -1,0 +1,49 @@
+.logo {
+    font-size: 25px;
+}
+.text-ccc {
+    color: #ccc;
+}
+.link-hover:hover {
+    color: white;
+    cursor: pointer;
+}
+.footer-detail {
+    font-size: 11pt;
+}
+.footer-socialMedia {
+    font-size: 15pt;
+}
+@media screen and (max-width: 780px) {
+    .text-center-screen-lessThan-780 {
+        text-align: center;
+    }
+}
+.content-box {
+    transform: scaleX(0.97);
+    border-radius: 5px;
+    box-shadow: -1px 1px 10px 0.5px #ccc;
+}
+.content-box:hover {
+    transform: translateY(-5px);
+    box-shadow: -1px 1px 10px 2px #ccc;
+}
+.content-box img {
+    width: 100%;
+    transform: scaleX(1.09);
+    border-radius: 5px 5px 0 0;
+}
+.post-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    color: #ccc;
+}
+.content-view {
+    cursor: pointer;
+}
+.content-view h4:hover {
+    text-decoration: underline;
+}
